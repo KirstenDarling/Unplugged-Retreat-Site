@@ -97,6 +97,49 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* General Styles */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.875em;
+}
+
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  margin: 20px 0;
+  font-size: 1.125em;
+}
+
+p {
+  font-size: 0.875em;
+  line-height: 1.285;
+}
+
+address {
+  font-style: normal;
+}
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -289,7 +332,6 @@ aside {
 .faq-content {
   margin-bottom: 50px;
 }
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -498,10 +540,6 @@ aside {
    FAQ Page
    ========================================================================== */
 
-  header {
-    padding: 15px 0;
-  }
-
   .faq .content-wrapper {
     justify-content: space-between;
   }
@@ -517,6 +555,10 @@ aside {
 
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
+
+  header {
+    padding: 15px 0;
+  }
 
   .content-wrapper {
     max-width: 960px;
