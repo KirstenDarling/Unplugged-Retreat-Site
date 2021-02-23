@@ -442,10 +442,6 @@ input[type="button"] {
   margin-bottom: 50px;
 }
 
-.faq-content {
-  margin-bottom: 50px;
-}
-
 .faq-content h4 {
   line-height: 1.333;
 }
@@ -810,6 +806,7 @@ input[type="button"] {
   footer h4 {
     font-size: 1.875em;
   }
+
   /* ==========================================================================
   About Page
   ========================================================================== */
