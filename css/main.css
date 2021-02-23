@@ -586,7 +586,7 @@ input[type="button"] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 40%;
+    width: 35%;
     margin: 0;
   }
 
@@ -672,6 +672,10 @@ input[type="button"] {
     width: 45%;
   }
 
+  .map figure {
+    padding-bottom: 45.5%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -746,7 +750,7 @@ input[type="button"] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 30%;
+    width: 40%;
   }
 
   .form-description p {
@@ -776,10 +780,12 @@ input[type="button"] {
   footer h4 {
     font-size: 1.875em;
   }
-
   /* ==========================================================================
   About Page
   ========================================================================== */
+  .map figure {
+    padding-bottom: 37.5%;
+  }
 
   .mission h2,
   .contact-section .content-wrapper h2 {
