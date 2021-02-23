@@ -369,6 +369,22 @@ input[type="button"] {
   flex-flow: row wrap;
 }
 
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 125%;
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .contact-section {
   background-color: #2a423a;
   display: flex;
@@ -748,12 +764,13 @@ input[type="button"] {
   }
 
   /* Reviews */
-  .reviews article div {
-    width: 42%;
-  }
 
   .reviews h2 {
     padding-bottom: 50px;
+  }
+
+  .reviews article div {
+    width: 42%;
   }
 
   footer h4 {
