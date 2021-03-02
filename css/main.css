@@ -163,7 +163,7 @@ address {
 
 header,
 footer {
-  background-color: #202322;
+  background-color: #324222;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -191,7 +191,7 @@ header figure {
 }
 
 .header-divider {
-  background: #3a3a3a;
+  background: #40572d;
   height: 1px;
   width: 100%;
   margin: 10px 0 20px 0;
@@ -214,8 +214,14 @@ header nav ul {
   justify-content: space-around;
 }
 
+#logo {
+  font-family: "Allura", cursive;
+  font-size: 35px;
+}
+
 header nav ul li {
   font-size: 1.125em;
+  padding: 20px;
 }
 
 footer {
@@ -265,7 +271,7 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
-  background: url(../img/unplugged-retreat.jpg);
+  background: url(../img/hero.png);
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -279,12 +285,15 @@ footer .copyright {
   font-family: "Poppins", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
+  /* color: #2a423a; */
+  color: #d88968;
 }
 
 /* Aside */
 
 aside {
-  background-color: #527158;
+  /* background-color: #e9b591; */
+  background-color: #885034;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -319,8 +328,14 @@ input[type="button"] {
 
 /* Features */
 
-.features {
-  background: url("../img/unplugged-retreat-features.jpg");
+.portfolio {
+  background: rgb(216, 137, 104);
+  background: linear-gradient(
+    153deg,
+    rgba(216, 137, 104, 1) 0%,
+    rgba(136, 80, 52, 1) 37%,
+    rgba(50, 66, 34, 1) 86%
+  );
   background-size: cover;
   background-position: center;
   display: flex;
@@ -328,28 +343,32 @@ input[type="button"] {
   flex-flow: row wrap;
 }
 
-.features h2 {
+.portfolio h3 {
+  text-align: center;
+}
+
+.portfolio h2 {
   margin-bottom: 60px;
 }
 
-.features article {
+.portfolio figure {
   width: 63%;
   margin: 30px 0;
 }
 
-.features .features-items {
+.portfolio .portfolio-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-.features i {
+.portfolio i {
   font-size: 3.75em;
   margin-bottom: 40px;
 }
 
-.features p {
+.portfolio p {
   text-align: center;
   margin: 0;
 }
@@ -357,7 +376,7 @@ input[type="button"] {
 /* Reviews */
 
 .reviews {
-  background-color: #2a423a;
+  background-color: #885034;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -371,6 +390,13 @@ input[type="button"] {
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
+}
+
+.bio-image {
+  width: 75%;
+  border-radius: 50%;
+  overflow: hidden;
+  filter: grayscale(15%);
 }
 
 /* ==========================================================================
@@ -608,23 +634,24 @@ input[type="button"] {
 
   /* Features */
 
-  .features h2 {
+  .portfolio h2 {
     margin-bottom: 20px;
   }
 
-  .features article {
+  .portfolio figure {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
-    flex-basis: 50%;
+    flex-basis: 40%;
+    margin: 25px;
   }
 
-  .features .features-item-description {
+  .portfolio .portfolio-item-description {
     width: 62%;
   }
 
-  .features i {
+  .portfolio i {
     margin-bottom: 30px;
   }
 
@@ -785,12 +812,13 @@ input[type="button"] {
 
   /* Features */
 
-  .features h2 {
+  .portfolio h2 {
     width: 90%;
   }
 
-  .features article {
-    flex-basis: 33%;
+  .portfolio figure {
+    flex-basis: 45%;
+    margin: 20px;
   }
 
   /* Reviews */
