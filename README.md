@@ -1,6 +1,6 @@
 # Unplugged - Retreat Site
 ## Skillcrush finals, responsive
-### View the [live project here.](https://kirstendarling.github.io/unplugged-retreat/)
+### View the [live project here.](https://kirstendarling.github.io/Unplugged-Retreat-Site/)
 
 ### Screenshot
 
